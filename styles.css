@@ -1,0 +1,44 @@
+#rcwl-watchlist {
+  width: 1050px;
+  margin: 0 auto 50px;
+}
+
+@media (max-width: 823px) and (orientation: landscape),
+  screen and (max-width: 900px) and (orientation: portrait) {
+  #rcwl-watchlist {
+    width: auto;
+  }
+}
+
+#rcwl-watchlist h2,
+#rcwl-watchlist p {
+  text-align: center;
+}
+
+#rcwl-watchlist li {
+  border-radius: 5px;
+  background: linear-gradient(180deg, #fff, #f7faff);
+  box-shadow: 0 1px 3px rgb(20 30 64 / 15%);
+}
+
+.rcwl-video-list-item {
+  display: flex;
+}
+
+.rcwl-button-container {
+  padding: 10px;
+}
+
+.rcwl-button {
+  all: unset;
+  padding: 5px 1px 1px 5px;
+  text-align: center;
+  background-color: #edf3fa;
+  border-radius: 3px;
+  transition: all 0.2s ease;
+  cursor: pointer;
+}
+
+.rcwl-button:hover {
+  background-color: #e0e7ef;
+}

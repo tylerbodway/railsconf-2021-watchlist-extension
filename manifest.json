@@ -1,0 +1,14 @@
+{
+  "content_scripts": [
+    {
+      "css": ["styles.css"],
+      "js": ["content.js"],
+      "matches": ["https://railsconf.org/live"]
+    }
+  ],
+  "description": "Save specific RailsConf videos to a watchlist",
+  "manifest_version": 3,
+  "name": "RailsConf 2021 Watchlist",
+  "permissions": ["storage"],
+  "version": "1.0"
+}
